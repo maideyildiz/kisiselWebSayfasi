@@ -1,51 +1,108 @@
-body {
-    font-family: cursive;
+body{
+	font-size: 30px;
 }
-header {
-	width: 100%;
-	height: 100px;
-	background: #a6a6a6;
-    margin: 0px auto;
+
+nav{
+    padding-top: 10px;
+    padding-bottom:10px;
+    background-color:bisque;}
+
+li{
+	display: inline-block;
 }
-nav {
-    display: inline-block;
-    margin-left: 198px;
-    margin-top: 78px;
-}
-img#logo { 
-    position: absolute;
-    top: 0px;
-    left: 0;
-    object-fit:contain;
-}
-section {
-width: 100%;
-	height: 100px;
-position:absolute;
-    text-align:right;
-    
-   padding:  0px 20px;
-}
-img {
-  margin-right: 0px auto;
-}
-.base img {
-  width: 200px;
-  height: 200px;
-}
-.logo img {
-  object-fit: contain;
-}
-a {
-	color: black;
+a{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:  10px;
+    padding-bottom: 10px;
 	text-decoration: none;
-	font-weight: 2em;
-	font-family: 'roboto';
-	margin-right: 10px;
-    padding: 20px;
+    color: coral;
 }
-a:hover{
-    color: white;
-    background: #a6a6a6;
-    padding: 30px;
+ol{
+    list-style-type: none;}
+a:hover {
+    background-color:brown;
+}
+a2{ 
+    top:15px;
+    left: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:  15px;
+    padding-bottom: 15px;
+    position:absolute;
+}
+img#logo {
+    width: 100%;
+}
+a2:hover{
+    background-color:brown;
+}
+h3{
+    padding-left: 55px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: coral;
+    border-bottom-style:solid;
+    border-bottom-color:brown;
+}
+div{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+table{
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    color:firebrick;
+}
+p1{
+    padding-left: 20px;
+    font-size: 20px;
+    color:firebrick;
+}
+.sol{
+    background-color:brown;
+    position:absolute;
+    top:500px;
+    left:60px;
+}
+.sag{
+    background-color:brown;
+    position:absolute;
+    top:500px;
+    right:60px;}
+.cumalikizik{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 400px;
+    height: 500px;
+    background: white;
+    left: 50px;
+}
+img#cumalikizik{
+    width: 600px;
+    height: 400px;
+}
+.yazi{
+    padding-left: 10px;
+    margin:auto;
+}
+img#cumalikizik2{
+    width: 600px;
+    height: 400px;
+    float:right;
+}
+p2{
+    padding-left: 30px;
+    padding-right: 10px;
+    font-size: 20px;
+    color:firebrick;
+}
+img#cinaraligi{
+    width: 600px;
+    height: 400px;
+    float:left;
+    margin-right: 20px;
 }
