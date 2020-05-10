@@ -19,7 +19,7 @@
 ?>
     <nav>
 	<ol>
-		<li><a href="hakkinda.html"> Hakkında </a></li>
+		<li><a href="index.html"> Hakkında </a></li>
         <li><a href="cv.html"> CV </a></li>
         <li><a href="benimSehrim.html"> Benim Şehrim </a></li>
         <li><a href="mirasimiz.html"> Mirasımız </a></li>
