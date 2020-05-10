@@ -2,8 +2,8 @@
 <html lan="tr">
 <head> 
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="global.css">
-    
     <title> ~Maide YILDIZ~ </title>
 </head>
     <body>
@@ -13,25 +13,40 @@
         <li><a href="cv.html"> CV </a></li>
         <li><a href="benimSehrim.html"> Benim Şehrim </a></li>
         <li><a href="mirasimiz.html"> Mirasımız </a></li>
-        <li><a href="iletisim.html"> İletişim </a></li>
-        <li><a2 href="login.html"><img src="pictures/login.png"></a2></li>
+        <li><a href="iletisim.php"> İletişim </a></li>
+        <li><a id="login" href="login.php"><img src="pictures/login.png" id="logo"></a></li>
 	</ol>
 </nav>  
     <div>    
 <section> 
+    <br>
 	<h3>Benim Şehrim BURSA</h3>
-    
-    <div class="slider">
-  <a href="resimler.html"><img class="resimler" src="pictures/kozahan.jpg" style="width:100%"></a>
-  <a href="resimler.html"><img class="resimler" src="pictures/teleferik.jpg" style="width:100%"></a>
-  <a href="resimler.html"><img class="resimler" src="pictures/iskender.jpg" style="width:100%"></a>
-
-  <button class="sol" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="sag" onclick="plusDivs(1)">&#10095;</button>
+    <br>
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="resimler.html"><img src="pictures/kozahan.jpg" class="d-block w-100"></a>
+    </div>
+    <div class="carousel-item">
+      <a href="resimler.html"><img src="pictures/teleferik.jpg" class="d-block w-100" ></a>
+    </div>
+    <div class="carousel-item">
+      <a href="resimler.html"><img src="pictures/arabamuzesi.jpg" class="d-block w-100" ></a>
+    </div>
+      <div class="carousel-item">
+      <a href="resimler.html"><img src="pictures/iskender.jpg" class="d-block w-100" ></a>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
     
-
-<br>
     <br>
 	<p1>Bursa ili, Türkiye'nin en kalabalık dördüncü şehridir.2019 itibarıyla 3.056.120 nüfusa sahiptir. </p1>
     <br>
@@ -39,10 +54,18 @@
     <br>
     <p1>Bursa Marmara bölgesinin İstanbul'dan sonra gelen ikinci büyük şehridir. Türkiye'nin en önemli birkaç sanayi kentinden biridir. Şehir İstanbul'dan sonra en büyük ikinci ihracatı gerçekleştirmektedir. Bursa, sanayi istatistiklerine göre Türkiye'nin en büyük sanayi kenti ve otomotiv üretim merkezidir. Bursa'da otomotiv sanayi kuruluşları, otomobil, otobüs, metro, hafif metro ve tramvay vagonları ve bunlara ait yedek parçaların imalatını yapmakla birlikte, yurt içine ve yurt dışına satış yapmaktadır. Fiat (TOFAŞ), Renault, Bosch fabrikaları ve bu fabrikalara parça sağlayan diğer fabrikalar sayesinde Bursa önemli bir otomotiv kentidir. Şehrin göç almasındaki en büyük etkenlerin başında bu fabrikalar gelir.</p1>
     <br>
-    <p1> Türkiyenin önde gelen üniversitelerinden biri olan Uludağ Üniversiteside yine Bursa ilindedir.</p1>
-</section>
+  <p1> Türkiyenin önde gelen üniversitelerinden biri olan Uludağ Üniversiteside yine Bursa ilindedir.</p1>
+    <br>
+    <br>
+    <p1><a href="https://tr.wikipedia.org/wiki/Bursa">Kaynakça</a></p1>
+    <br>
+    <br>
+        </section>
         </div>
     <br>
     <br>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>
