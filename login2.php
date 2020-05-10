@@ -1,3 +1,4 @@
+<?php ob_start(); ?>
 <!DOCTYPE HTML>
 <html lan="tr">
 <head> 
@@ -14,7 +15,7 @@
 {
    echo "<p1>HOŞGELDİN B191210310!</p1>";
 }
-    else{  header("Location: login.php");}
+    else{  header("Location: login.php"); ob_enf_flush();}
 }            
 ?>
     <nav>
